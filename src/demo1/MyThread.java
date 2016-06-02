@@ -11,6 +11,7 @@ public class MyThread extends Thread {
             System.out.println("i="+(i+1));
             if (this.isInterrupted()){
                 System.out.println("end");
+
                 return;
 
             }
