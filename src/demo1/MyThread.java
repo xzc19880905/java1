@@ -12,7 +12,7 @@ public class MyThread extends Thread {
             if (this.isInterrupted()){
                 System.out.println("end");
                 return;
-                int a = 0;
+
             }
         }
     }
